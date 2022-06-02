@@ -1,0 +1,72 @@
+$bg-color: hsl(218, 23%, 16%);
+$advice-color:  hsl(217, 19%, 38%);
+$color-text: hsl(150, 100%, 66%);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: $bg-color;
+    color: $color-text;
+
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.6rem;
+}
+
+header{
+    h1{
+        text-align: center;
+        
+    }
+    width: 100%;
+    height: 12vh;
+    
+    border-bottom: 1px solid black;
+}
+
+main{
+    background: $advice-color;
+
+    width: 35rem;
+    height: 25rem;
+
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
+
+    margin: 10rem auto;
+
+    h2{
+        text-align: center;
+    }
+
+    p{
+        margin-top: 2rem;
+
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    img{
+        cursor: pointer;
+
+        margin: 14rem 0 0 16rem;
+
+        background: $color-text;
+
+        border-radius: 10px;
+
+        width: 4rem;        
+    }
+
+    img:hover{
+        filter: brightness(1.3);
+    }
+
+}
