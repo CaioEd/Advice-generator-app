@@ -39,10 +39,11 @@ main p {
   margin-top: 2rem;
   font-size: 2rem;
   text-align: center;
+  color: white;
 }
 main img {
   cursor: pointer;
-  margin: 14rem 0 0 16rem;
+  margin: 12rem 0 0 16rem;
   background: hsl(150deg, 100%, 66%);
   border-radius: 10px;
   width: 4rem;
